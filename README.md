@@ -48,6 +48,6 @@ system(paste("open", out$pdf))
 
 # Screenshots 
 
-()[data/ui_example.png]
+!(ui)[./data/ui_example.png]
 
-()[data/pdf_example.png]
+!(pdf)[./data/pdf_example.png]

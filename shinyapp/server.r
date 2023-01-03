@@ -50,7 +50,7 @@ progress <- reactiveValues(message = "", value = 0)
                           create_images = input$create_images,
                           #create_pdf = input$create_pdf,
                           create_pdf = TRUE,
-                          folder = "/home/cheuer/tmp",
+                          folder = tempdir(),
                           progress = progress
             )
 
